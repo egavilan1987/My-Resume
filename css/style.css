@@ -1,0 +1,52 @@
+.main-header{
+  background: url(../img/coding.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+.section-summary{
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.section-about {
+  font-size: 18px;
+}
+
+.section-education{
+  font-size: 18px;
+}
+
+.section-experience{
+  font-size: 18px;
+}
+.wrapper{
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  left: 0px;
+}
+.section-skills {
+  font-size: 18px;
+}
+.section-interests{
+  font-size: 18px;
+}
+.tabs .indicator {
+  background-color: #fff !important;
+}
+ul li a {
+  font-weight: bold;
+}
+.brand-logo{
+  margin-left: 60px;
+  font-weight: bold;
+}
+.skills-card{
+  padding-bottom: 5px;
+}
+.img-profile{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+}

@@ -6,63 +6,24 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
     crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enmanuel Gavilan</title>
   <!-- Tab Icon-->
   <link rel="icon" href="img/profile 2.png">
 </head>
-<style>
-.main-header{
-  background: url(img/coding.png);
-  background-size: cover;
-  background-position: center;
-  min-height: 900px;
-}
-.section-summary{
-  padding-top: 2px;
-  font-size: 18px;
-}
-
-.section-about {
-  font-size: 18px;
-}
-
-.section-education{
-  font-size: 18px;
-}
-
-.section-experience{
-  font-size: 18px;
-}
-.wrapper{
-  position: absolute;
-  top: 200px;
-  right: 0px;
-  left: 0px;
-}
-.section-skills {
-  font-size: 18px;
-}
-.section-interests{
-  font-size: 18px;
-}
-.tabs .indicator {
-  background-color: #fff !important;
-}
-
-</style>
 <body id="home" class="scrollspy">
   <!-- Navbar -->
   <header class="main-header">
   <div class="navbar-fixed">
     <nav class="indigo darken-4">
-      <div class="container">
+      <div class="">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">EG Card</a>
+          <a href="#" class="brand-logo">EGavilan</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
@@ -71,7 +32,7 @@
               <a href="#home">HOME</a>
             </li>
             <li>
-              <a href="#about">ABOUT ME</a>
+              <a href="#about"><b>ABOUT ME</b></a>
             </li>
             <li>
               <a href="#education">EDUCATION</a>
@@ -89,7 +50,7 @@
               <a href="#interests">INTERESTS</a>
             </li>
             <li>
-              <a  class="btn tooltipped col s2" data-position="bottom" margin="1" data-delay="50" data-tooltip="Go to Spanish site.">Spanish</a>
+              <a href="#" class="btn col s2">Spanish</a>
             </li>
           </ul>
         </div>
@@ -129,7 +90,7 @@
    </div>
 
 <!-- Wrapper -->
-<div class="">
+<div class="wrapper">
 <!-- Section: Summary -->
 <section id="" class="section section-summary scrollspy">
  <div class="container">
@@ -138,12 +99,8 @@
        <div class="card indigo darken-4">
          <div class="row">
          <div class="col s12 m12">
-           <div class="col s12 m1">
-             <div class="teal"></div>
-           </div>
            <div class="col s12 m3">
-             <div class="center">
-               <br><br>
+             <div class="img-profile center">
                <img src="img/profile3.jpg" class="responsive-img">
              </div>
            </div>
@@ -157,7 +114,7 @@
                </div>
                <div class="col l12 m12 s12">
                  <div class="col l4 m5 s12">
-                     <b>Cedula:</b>
+                     <b>C&#233;dula:</b>
                  </div>
                  <div class="col l8 m7 s12">
                      047-0192927-7
@@ -243,9 +200,9 @@
     </div>
   </div>
  </div>
-     <div class="col s12 m12 l12 center">
-       <a class="waves-effect waves-light btn indigo darken-4"><i class="material-icons left">cloud_download</i>DOWNLOAD RESUME</a>
-     </div>
+ <div class="col s12 m12 l12 center">
+   <a href="files/Enmanuel Gavilan.pdf" class="waves-effect waves-light btn indigo darken-4" download><i class="material-icons left">cloud_download</i>DOWNLOAD RESUME</a>
+ </div>
  </div>
 </section>
 <!-- Section: Summary -->
@@ -289,8 +246,8 @@
         <div class="card">
           <div class="card-content">
               <h5 class="indigo-text text-darken-4"><b>EDUCATION</b></h5>
-              <h6><b class="flow-text">Licenciado en Informatica</b><h6>
-              <p><b>Universidad Autonoma de Santo Domingo</b></p>
+              <h6><b class="flow-text">Licenciado en Inform&#225;tica</b><h6>
+              <p><b>Universidad Aut&#243;noma de Santo Domingo</b></p>
               <p><b>(UASD)</b></p>
           </div>
         </div>
@@ -310,7 +267,7 @@
           <div class="card-image">
             <img src="img/PHP.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>PHP</b></span>
           </div>
         </div>
@@ -320,7 +277,7 @@
           <div class="card-image">
             <img src="img/JS.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>JavaScript</b></span>
           </div>
         </div>
@@ -330,7 +287,7 @@
           <div class="card-image">
             <img src="img/HTML.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>HTML</b></span>
           </div>
         </div>
@@ -340,7 +297,7 @@
           <div class="card-image">
             <img src="img/CSS.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>CSS</b></span>
           </div>
         </div>
@@ -350,7 +307,7 @@
           <div class="card-image">
             <img src="img/Ajax.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>AJAX</b></span>
           </div>
         </div>
@@ -360,7 +317,7 @@
           <div class="card-image">
             <img src="img/JQuery.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>jQuery</b></span>
           </div>
         </div>
@@ -370,7 +327,7 @@
           <div class="card-image">
             <img src="img/json.jpg">
           </div>
-          <div class="center">
+          <div class="skills-card center">
             <span><b>JSON</b></span>
           </div>
         </div>
@@ -383,7 +340,7 @@
             <div class="card-image">
               <img src="img/Bootstrap.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Bootstrap</b></span>
             </div>
           </div>
@@ -393,7 +350,7 @@
             <div class="card-image">
               <img src="img/Materialize.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Materialize</b></span>
             </div>
           </div>
@@ -403,7 +360,7 @@
             <div class="card-image">
               <img src="img/symfony.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Symfony</b></span>
             </div>
           </div>
@@ -413,7 +370,7 @@
             <div class="card-image">
               <img src="img/React.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>React</b></span>
             </div>
           </div>
@@ -426,7 +383,7 @@
             <div class="card-image">
               <img src="img/XAMPP.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>XAMPP</b></span>
             </div>
           </div>
@@ -436,7 +393,7 @@
             <div class="card-image">
               <img src="img/Atom.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Atom</b></span>
             </div>
           </div>
@@ -446,7 +403,7 @@
             <div class="card-image">
               <img src="img/Github.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Github</b></span>
             </div>
           </div>
@@ -456,7 +413,7 @@
             <div class="card-image">
               <img src="img/Sublime.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Sublime</b></span>
             </div>
           </div>
@@ -466,7 +423,7 @@
             <div class="card-image">
               <img src="img/Wordpress.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Wordpress</b></span>
             </div>
           </div>
@@ -479,7 +436,7 @@
             <div class="card-image">
               <img src="img/MySQL.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>MySQL</b></span>
             </div>
           </div>
@@ -492,7 +449,7 @@
             <div class="card-image">
               <img src="img/Ps.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Photoshop</b></span>
             </div>
           </div>
@@ -502,7 +459,7 @@
             <div class="card-image">
               <img src="img/XD.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>XD</b></span>
             </div>
           </div>
@@ -512,7 +469,7 @@
             <div class="card-image">
               <img src="img/Ai.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Illustrator</b></span>
             </div>
           </div>
@@ -522,7 +479,7 @@
             <div class="card-image">
               <img src="img/Id.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>InDesign</b></span>
             </div>
           </div>
@@ -532,7 +489,7 @@
             <div class="card-image">
               <img src="img/Pr.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>Premiere Pro</b></span>
             </div>
           </div>
@@ -542,7 +499,7 @@
             <div class="card-image">
               <img src="img/Ae.jpg">
             </div>
-            <div class="center">
+            <div class="skills-card center">
               <span><b>After Effect</b></span>
             </div>
           </div>
@@ -555,8 +512,8 @@
             <div class="card-image">
               <img src="img/CCNA.jpg">
             </div>
-            <div class="center">
-              <span><b>CCNA</b></span>
+            <div class="skills-card center">
+              <span><b>CCNA Exploration 4.0</b></span>
             </div>
           </div>
         </div>
@@ -808,19 +765,6 @@
     // ScrollSpy
     const ss = document.querySelectorAll('.scrollspy');
     M.ScrollSpy.init(ss, {});
-
-
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.tooltipped');
-      var instances = M.Tooltip.init(elems, options);
-    });
-
-    // Or with jQuery
-
-    $(document).ready(function(){
-      $('.tooltipped').tooltip();
-      $('.tabs').tabs();
-    });
 
     var filterizd = $('.filtr-container').filterizr({});
 
